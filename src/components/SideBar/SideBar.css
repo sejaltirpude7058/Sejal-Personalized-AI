@@ -1,0 +1,110 @@
+.SideBar {
+  min-height: 100vh;
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #0e022a;
+  border-right: 2px solid #e88bf6;
+  font-weight: 500;
+  overflow: hidden; /* Ensure content stays within bounds */
+}
+
+.SideBar img {
+  width: 20px;
+}
+
+.SideBar .top i {
+  display: block;
+  cursor: pointer;
+  color: #e88bf6;
+  margin-top: 10px;
+}
+
+.SideBar .menu {
+  display: block;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.SideBar .new-chat {
+  margin-top: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: #480ca8;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #e88bf6;
+  cursor: pointer;
+}
+
+.SideBar .recent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  overflow-y: auto; /* Handle overflow */
+  max-height: calc(100vh - 200px); /* Adjust height to fit content */
+  animation: fadeIn 1.5s;
+}
+
+.SideBar .recent-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #e88bf6;
+}
+
+.SideBar .recent-entry {
+  display: flex;
+  align-items: start;
+  padding: 6px;
+  gap: 10px;
+  padding-right: 40px;
+  border-radius: 50px;
+  color: #e88bf6;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.SideBar .recent-entry:hover {
+  background-color: #19024a;
+}
+
+.SideBar .bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.SideBar .bottom-item {
+    color: #e88bf6;
+  padding-right: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+
+.SideBar .bottom-item i{
+    /* color: #e88bf6; */
+    margin: 6px;
+}
+
+@media (max-width: 600px) {
+  .SideBar {
+    display: none;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

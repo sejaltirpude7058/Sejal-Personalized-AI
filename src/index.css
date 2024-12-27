@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+  font-family: "Lato", serif;
+  /* font-weight: 400; */
+  font-style: normal;
+   box-sizing: border-box;
+}
+
+#root{
+  display: flex;
+  min-height: 100vh;
+  background-color: #0e022a;
+  animation: fadeIn 1.5s;
+  
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0.8;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
