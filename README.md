@@ -1,8 +1,15 @@
-# React + Vite
+# Project Title
+Sejal-Personalised-AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+An AI-powered platform for smart, human-like conversations and personalized interactions, ideal for chatbots or virtual assistants.
 
-Currently, two official plugins are available:
+## Tech Stack
+Frontend: React.js
+AI Model: Google Gemini API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+This project is useful for building AI-powered chatbots or virtual assistants that provide human-like responses. It can be integrated into websites or apps to improve user engagement and interaction.
+
+## Live Demo
+Check out the live project here: https://sejalvisionai.netlify.app/
