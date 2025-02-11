@@ -20,7 +20,7 @@ Sejal Personalized AI is an AI-powered chatbot that provides smart, human-like c
 3. A human-like response is generated and displayed instantly.  
 
 ## **Live Demo**  
-🔗 **Check it out here**: [Sejal Personalized AI]((https://sejalvisionai.netlify.app/))  
+🔗 **Check it out here**: https://sejalvisionai.netlify.app/
 
 ## **Installation & Setup**  
 
@@ -28,5 +28,6 @@ Sejal Personalized AI is an AI-powered chatbot that provides smart, human-like c
 ```sh
 git clone https://github.com/sejaltirpude7058/Sejal-Personalized-AI.git
 cd Sejal-Personalized-AI
-
-
+```
+## Screenshot
+![Image](https://github.com/user-attachments/assets/a0432801-9c91-4176-b1bd-8157a99d91d9)
