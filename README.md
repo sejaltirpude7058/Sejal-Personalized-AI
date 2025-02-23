@@ -1,7 +1,7 @@
-# Sejal Personalized AI  
+# Personalized AI  
 
 ## **Description**  
-Sejal Personalized AI is an AI-powered chatbot that provides smart, human-like conversations using the Google Gemini API. It enhances user engagement with intelligent and personalized responses, making it ideal for virtual assistants, chatbots, and interactive AI applications.  
+Personalized AI is an AI-powered chatbot that provides smart, human-like conversations using the Google Gemini API. It enhances user engagement with intelligent and personalized responses, making it ideal for virtual assistants, chatbots, and interactive AI applications.  
 
 ## **Tech Stack**  
 - **Frontend**: React.js  
